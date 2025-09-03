@@ -12,9 +12,9 @@ _DURATION_: 4 WEEKS
 
 _MENTOR_: NEELAM SANTOSH
 
-**PROJECT DESCRIPTION**:\
+**PROJECT DESCRIPTION**:
 
-        The Airline Flight Delay Analysis project is a data-driven initiative aimed at understanding the factors influencing flight delays, cancellations and airline reliability in the aviation industry. Flight delays are a critical issue, causing inconvenience to passengers, financial loss to airlines and operational inefficiencies at airports. By analyzing a large dataset of files, this project provides actionable insights into delay trends, cancellation patterns and carrier performance.
+The Airline Flight Delay Analysis project is a data-driven initiative aimed at understanding the factors influencing flight delays, cancellations and airline reliability in the aviation industry. Flight delays are a critical issue, causing inconvenience to passengers, financial loss to airlines and operational inefficiencies at airports. By analyzing a large dataset of files, this project provides actionable insights into delay trends, cancellation patterns and carrier performance.
          
 **TOOLS AND TECHNOLOGIES USED**:
        This project primarily utilizes **PySpark**, a powerful open source distributed computing framework, for handling and analyzing large-scale flight data.The dataset used in this project is too large to be efficiently processed using traditional tools like Excel or even base Python with Pandas. Hence, PySpark was chosen for its ability to perfrom parallel processing and handle big data operations.
