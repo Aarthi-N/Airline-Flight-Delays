@@ -20,10 +20,10 @@ The Airline Flight Delay Analysis project is a data-driven initiative aimed at u
 
 This project primarily utilizes **PySpark**, a powerful open source distributed computing framework, for handling and analyzing large-scale flight data.The dataset used in this project is too large to be efficiently processed using traditional tools like Excel or even base Python with Pandas. Hence, PySpark was chosen for its ability to perfrom parallel processing and handle big data operations.
 
-     * **PySpark SQL**: Used to read and transform CSV files into Spark DataFrames, allowing SQL-like operations on structured data.\
-     * **Pandas**: Used selectively for small-scale data manipulations and checking outputs.\
-     * **Matplotlib / Seaborn**: Used for visualization of delay trends, cancellations, and reliability metrics.\
-     * **Zipfile & OS librarie**s: Used to extract the raw dataset from compressed files.
+  * ** PySpark SQL**: Used to read and transform CSV files into Spark DataFrames, allowing SQL-like operations on structured data.\
+  * **Pandas**: Used selectively for small-scale data manipulations and checking outputs.\
+  * **Matplotlib / Seaborn**: Used for visualization of delay trends, cancellations, and reliability metrics.\
+  * **Zipfile & OS librarie**s: Used to extract the raw dataset from compressed files.
 
 **DATA PREPARATION**:
 
