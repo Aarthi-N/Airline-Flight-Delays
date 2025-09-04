@@ -18,15 +18,17 @@ The Airline Flight Delay Analysis project is a data-driven initiative aimed at u
          
 **TOOLS AND TECHNOLOGIES USED**:
 
-This project primarily utilizes **PySpark**, a powerful open source distributed computing framework, for handling and analyzing large-scale flight data.The dataset used in this project is too large to be efficiently processed using traditional tools like Excel or even base Python with Pandas. Hence, PySpark was chosen for its ability to perfrom parallel processing and handle big data operations.\
-     ***PySpark SQL**: Used to read and transform CSV files into Spark DataFrames, allowing SQL-like operations on structured data.\
-     ***Pandas**: Used selectively for small-scale data manipulations and checking outputs.\
-     ***Matplotlib / Seaborn**: Used for visualization of delay trends, cancellations, and reliability metrics.\
-     ***Zipfile & OS librarie**s: Used to extract the raw dataset from compressed files.
+This project primarily utilizes **PySpark**, a powerful open source distributed computing framework, for handling and analyzing large-scale flight data.The dataset used in this project is too large to be efficiently processed using traditional tools like Excel or even base Python with Pandas. Hence, PySpark was chosen for its ability to perfrom parallel processing and handle big data operations.
+
+     * **PySpark SQL**: Used to read and transform CSV files into Spark DataFrames, allowing SQL-like operations on structured data.\
+     * **Pandas**: Used selectively for small-scale data manipulations and checking outputs.\
+     * **Matplotlib / Seaborn**: Used for visualization of delay trends, cancellations, and reliability metrics.\
+     * **Zipfile & OS librarie**s: Used to extract the raw dataset from compressed files.
 
 **DATA PREPARATION**:
 
-The dataset included four major files:\
+The dataset included four major files:
+
           1. **Airlines.csv** - containing airline codes and names.\
           2. **Airports.csv** - containing airport details such as city, state, country, latitude and longtitude.\
           3. **Flights.csv** - the main dataset containing detailed records of flights, including scheduled time, actual time, delaus and cancellations.\
@@ -34,7 +36,8 @@ The dataset included four major files:\
 
 **DATA ANALYSIS**:
 
-The analysis was performed in multiple stages:\
+The analysis was performed in multiple stages:
+
           1. **Yearly delay trends** - Flights were grouped by month and year to analyze how the project of delayed flights varied across the year. This highlighted peak seasons of delay and possible seasonal impacts such as weather.\
           2. **Cancellations Analysis** - The dataset was filtered for cancelled flights, and cancellations were categorized by reason. The percentage contribution of each cancellation reason was calculated, giving insights into weather delays were caused more by operational inefficiencies, weather conditions or air traffic.\
           3. **Airline Reliabilty** - Airlines were ranked based on their percentage of on-time departures. This revealed which airlines were the most punctual and which had frequent delays. This information is particularly for consumers choosing flights and for airlines to benchmark performance.\
